@@ -1,7 +1,5 @@
 #!/bin/bash
-
 #script that automates the git add, commit and push command process
-
 git add .
 git commit -m "Add: ${@}"
 git push
