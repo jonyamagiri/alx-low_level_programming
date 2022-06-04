@@ -1,19 +1,25 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
- * Prints the size of various types on my computer
+ *Description: Prints the size of various types on 32/64 bit computer
  *
- * Return: Always (0)
+ *Return: Always success (0)
  */
 
 int main(void)
 {
-	printf("Size of a char: %zu byte(s)\n", sizeof(char));
-	printf("Size of int: %zu byte(s)\n", sizeof(int));
-	printf("Size of long int: %zu byte(s)\n", sizeof(long int));
-	printf("Size of long long int: %zu byte(s)\n", sizeof(long long int));
-	printf("Size of float: %zu byte(s)\n", sizeof(float));
+	char ch;
+	int in;
+	long int li;
+	long long int lli;
+	float fl;
+
+	printf("Size of a char: %zu byte(s)\n", sizeof(ch));
+	printf("Size of int: %zu byte(s)\n", sizeof(in));
+	printf("Size of long int: %zu byte(s)\n", sizeof(li));
+	printf("Size of long long int: %zu byte(s)\n", sizeof(lli));
+	printf("Size of float: %zu byte(s)\n", sizeof(fl));
+
 	return (0);
 }
