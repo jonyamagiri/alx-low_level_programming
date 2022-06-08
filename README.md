@@ -6,6 +6,6 @@ This repository contains C projects for the low level progamming course.
 
 **0x02-functions_nested_loops**
 
-**0x03. C - Debugging**
+**0x03-debugging**
 
 

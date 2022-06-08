@@ -1,4 +1,4 @@
-## 0x03. C - Debugging
+## 0x03-debugging
 
 This repository contains the tasks for `C - Debugging` project and a description of what each program or function does:
 
