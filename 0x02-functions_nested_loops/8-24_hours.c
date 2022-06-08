@@ -13,9 +13,9 @@ void jack_bauer(void)
 
 	for (ht = 48; ht <= 50; ht++)
 	{
-		for (ho = 48; ho <= 58; ho++)
+		for (ho = 48; ho <= 51; ho++)
 		{
-			for (mt = 48; mt <= 51; mt++)
+			for (mt = 48; mt <= 53; mt++)
 			{
 				for (mo = 48; mo <= 57; mo++)
 				{
