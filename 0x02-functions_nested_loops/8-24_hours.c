@@ -9,24 +9,17 @@
 
 void jack_bauer(void)
 {
-	int ht, ho, mt, mo;
+	int h, m;
 
-	for (ht = 48; ht <= 50; ht++)
+	for (h = 0; h <= 23; h++)
 	{
-		for (ho = 48; ho <= 51; ho++)
+		for (m = 0; m <= 59; m++)
 		{
-			for (mt = 48; mt <= 53; mt++)
-			{
-				for (mo = 48; mo <= 57; mo++)
-				{
-					_putchar(ht);
-					_putchar(ho);
-					_putchar(':');
-					_putchar(mt);
-					_putchar(mo);
-					_putchar('\n');
-				}
-			}
+			_putchar((h / 10) + '0');
+			_putchar((h % 10) + '0');
+			_putchar(':');
+			_putchar((m / 10) + '0');
+			_putchar((m / 10) + '0');
 		}
 	}
 }
