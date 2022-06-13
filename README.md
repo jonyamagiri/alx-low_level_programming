@@ -10,4 +10,6 @@ This repository contains C projects for the low level progamming course.
 
 **0x04-more_functions_nested_loops**
 
+**0x05-pointers_arrays_strings**
+
 
