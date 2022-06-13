@@ -2,16 +2,16 @@
 
 /**
   * _strlen - Entry point
-  * @s: pointer to a char
+  * @str: pointer to a char
   * Description: Function that returns the length of a string
   * Return: integer length of string at address
   */
 
-int _strlen(char *s)
+int _strlen(char *str)
 {
 	int slen;
 
-	while (*s++)
+	while (*str++)
 	{
 		slen++;
 	}
