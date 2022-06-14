@@ -65,3 +65,35 @@ A function that prints all natural numbers from `n` to `98`, followed by a new l
 * The last printed number should be `98`
 * You are allowed to use the standard library
 
+#### 100-times_table.c
+A function that prints the `n` times table, starting with `0`.
+* Prototype: `void print_times_table(int n);`
+* If `n` is greater than `15` or less than `0` the function should not print anything
+
+#### 101-natural.c
+A program that computes and prints the sum of all the multiples of `3` or `5` below `1024` (excluded), followed by a new line.
+* You are allowed to use the standard library
+
+#### 102-fibonacci.c
+A program that prints the first 50 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
+* The numbers must be separated by comma, followed by a space `, ` 
+* You are allowed to use the standard library
+
+#### 103-fibonacci.c
+By considering the terms in the Fibonacci sequence whose values do not exceed 4,000,000; a program that finds and prints the sum of the even-valued terms, followed by a new line.
+* You are allowed to use the standard library
+
+#### 104-fibonacci.c
+A program that finds and prints the first 98 Fibonacci numbers, starting with `1` and `2`, followed by a new line.
+* The numbers should be separated by comma, followed by a space `, `
+* You are allowed to use the standard library
+* You are not allowed to use any other library (You can’t use `GMP` etc…)
+* You are not allowed to use `long long`, `malloc`, pointers, arrays/tables, or structures
+* You are not allowed to hard code any Fibonacci number (except for `1` and `2`)
+
+	
+
+
+
+
+
