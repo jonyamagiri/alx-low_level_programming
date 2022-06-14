@@ -8,18 +8,19 @@
 
 int main(void)
 {
-	int a, b, i, result;
+	long a, b, result;
+	int i;
 	int n = 50;
 
-	a = 1;
-	b = 2;
+	a = 0;
+	b = 1;
 
 	for (i = 1; i <= n; i++)
 	{
-		printf("%d", a);
 		result = (a + b);
 		a = b;
 		b = result;
+		printf("%lu", result);
 		if (i < 50)
 		{
 			printf(", ");
