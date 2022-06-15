@@ -12,4 +12,6 @@ This repository contains C projects for the low level progamming course.
 
 **0x05-pointers_arrays_strings**
 
+**0x06-pointers_arrays_strings**
+
 
