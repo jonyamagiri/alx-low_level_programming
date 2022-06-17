@@ -9,39 +9,21 @@
 
 char *cap_string(char *str)
 {
-	int i;
+	char omit[] = {32, 9, '\n', 44, 59, 46, 33, 63, 34, 40, 41, 123, 125};
+	int len = 13;
+	int a, i;
 
-	for (i = 0; str[i] != '\0'; i++)
+	a = 0;
+	while (str[a])
 	{
-		if (i == 0)
+		for (i = 0; i < len; i++)
 		{
-			if ((str[i] >= 'a' && str[i] <= 'z'))
+			if ((a == 0 || str[a - 1] == omit[i]) && (str[a] >= 'a' && str[a] <= 'z'))
 			{
-				str[i] = str[i] - 32;
-				continue;
+				str[a] = str[a] - 32;
 			}
 		}
-		if (str[i] == ' ' ||
-			str[i] == '\t' ||
-			str[i] == '\n' ||
-			str[i] == ';' ||
-			str[i] == '.' ||
-			str[i] == '.' ||
-			str[i] == '!' ||
-			str[i] == '?' ||
-			str[i] == '"' ||
-			str[i] == '(' ||
-			str[i] == ')' ||
-			str[i] == '{' ||
-			str[i] == '}')
-		{
-			i++;
-			if (str[i] >= 'a' && str[i] <= 'z')
-			{
-				str[i] = str[i] - 32;
-				continue;
-			}
-		}
+		a++;
 	}
 	return (str);
 }
