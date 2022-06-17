@@ -32,12 +32,26 @@ Write a function that capitalizes all words of a string.
 
 #### Task: 7-leet.c
 Write a function that encodes a string into `1337`.
-* Letters `a` and `A` should be replaced by `4`
-* Letters `e` and `E` should be replaced by `3`
-* Letters `o` and `O` should be replaced by `0`
-* Letters `t` and `T` should be replaced by `7`
-* Letters `l` and `L` should be replaced by `1`
 * Prototype: `char *leet(char *);`
+
+#### Task: 100-rot13.c
+Write a function that encodes a string using `rot13`.
+* Prototype: `char *rot13(char *);`
+
+#### Task: 101-print_number.c
+Write a function that prints an integer using `_putchar()`.
+* Prototype: `void print_number(int n);`
+
+#### Task: 102-magic.c
+Add one line to `this code`, so that the program prints `a[2] = 98`, followed by a new line.
+
+#### Task: 103-infinite_add.c
+Write a function that adds two numbers.
+* Prototype: `char *infinite_add(char *n1, char *n2, char *r, int size_r);`
+
+#### Task: 104-print_buffer.c
+Write a function that prints a buffer.
+* Prototype: `void print_buffer(char *b, int size);`
 
 
 
