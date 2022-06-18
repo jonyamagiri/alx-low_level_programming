@@ -93,7 +93,3 @@ A program that finds and prints the first 98 Fibonacci numbers, starting with `1
 
 	
 
-
-
-
-
