@@ -1,6 +1,6 @@
-## 0x07. C - Even more pointers, arrays and stringsinters, arrays and strings
+## 0x07. C - Even more pointers, arrays and strings
 
-> This repository contains the tasks for `C - Even more pointers, arrays and stringsinters, arrays and strings` project and a description of what each program or function does:
+> This repository contains the tasks for `C - Even more pointers, arrays and strings` project and a description of what each program or function does:
 
 #### Task: 0-memset.c
 Write a function that fills memory with a constant byte.
