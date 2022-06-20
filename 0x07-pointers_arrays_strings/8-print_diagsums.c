@@ -14,7 +14,7 @@ void print_diagsums(int *a, int size)
 
 	i = 0;
 
-	while (i < (size * size))
+	while (i <= (size * size))
 	{
 		principal += *(a + i);
 		i = i + size + 1;
@@ -22,7 +22,7 @@ void print_diagsums(int *a, int size)
 
 	j = size - 1;
 
-	while (j < (size * size) - size)
+	while (j <= (size * size) - size)
 	{
 		secondary += *(a + j);
 		j = j + size - 1;
