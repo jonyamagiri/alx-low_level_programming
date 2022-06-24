@@ -12,8 +12,8 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int add;
+	int i, j;
+	int add = 0;
 
 	if (argc < 1)
 	{
@@ -21,13 +21,20 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		if (!atoi(argv[i]))
+		j = 0;
+
+		while (argv[i][j])
 		{
-			printf("Error\n");
-			return (1);
+			if (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+			j++;
 		}
 		add = add + atoi(argv[i]);
 	}
+	printf("%d\n", add);
 
 	return (0);
 }
