@@ -18,8 +18,13 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		for (i = 0; i < argc; i++)
+		i = 0;
+
+		while (*argv)
 		{
+			i++;
+			argv++;
+			continue;
 		}
 		printf("%d\n", i - 1);
 	}
