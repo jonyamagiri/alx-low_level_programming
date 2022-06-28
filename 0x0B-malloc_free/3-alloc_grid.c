@@ -19,7 +19,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 	}
 
-	gridarray = malloc(sizeof(unsigned int) * height);
+	gridarray = malloc(sizeof(int *) * height);
 	if (gridarray == NULL)
 	{
 		free(gridarray);
@@ -29,7 +29,7 @@ int **alloc_grid(int width, int height)
 	i = 0;
 	while (i < height)
 	{
-		gridarray[i] = malloc(sizeof(unsigned int) * width);
+		gridarray[i] = malloc(sizeof(int) * width);
 		if (gridarray == NULL)
 		{
 			free(gridarray);
