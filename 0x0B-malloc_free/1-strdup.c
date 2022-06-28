@@ -25,22 +25,16 @@ char *_strdup(char *str)
 		slen++;
 	}
 
-	dup = malloc((slen + 1) * sizeof(char));
+	dup = malloc(sizeof(char) * (slen + 1));
 
+	for (i = 0; i < (slen + 1); i++)
+	{
+		dup[i] = str[i];
+	}
 	if (dup == NULL)
 	{
 		return (NULL);
 	}
-
-	i = 0;
-
-	while (str[i])
-	{
-		dup[i] = str[i];
-		i++;
-	}
-
-	dup[slen] = '\0';
 
 	return (dup);
 }
