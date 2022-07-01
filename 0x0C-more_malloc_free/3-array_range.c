@@ -29,7 +29,9 @@ int *array_range(int min, int max)
 	i = 0;
 	while (i < size)
 	{
-		grp[i] = min++;
+		grp[i] = min;
+		i++;
+		min++;
 	}
 
 	return (grp);
