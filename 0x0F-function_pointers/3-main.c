@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	if (((*opr == '/') && (*argv[3]) == '0')||
-	((*opr == '%') && (*argv[3] == '0')))
+	if (((*opr == '/') && (*argv[3]) == 0)||
+	((*opr == '%') && (*argv[3] == 0)))
 	{
 		printf("Error\n");
 		exit(100);
