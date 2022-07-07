@@ -16,7 +16,7 @@ Write a function that prints strings, followed by a new line.
 
 #### Task: 3-print_all.c
 Write a function that prints anything.
-* Prototype: void print_all(const char * const format, ...);
+* Prototype: `void print_all(const char * const format, ...);`
 
 
 
