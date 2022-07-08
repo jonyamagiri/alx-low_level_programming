@@ -27,4 +27,7 @@ Write a program that performs simple operations.
 * Prototype: `int (*get_op_func(char *s))(int, int);`
 4. 3-main.c - This file should contain your `main` function only.
 
+___
+
+Author: Joab O. Nyamagiri
 
