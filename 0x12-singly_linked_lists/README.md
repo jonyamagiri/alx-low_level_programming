@@ -14,6 +14,7 @@ Write a function that returns the number of elements in a linked list_t list.
 
 Data structure used for this project:
 
+```
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
@@ -28,6 +29,7 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
+```
 
 
 
