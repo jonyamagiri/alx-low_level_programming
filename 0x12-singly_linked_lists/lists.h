@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
 * struct list_s - singly linked list
@@ -10,15 +11,21 @@
 * @len: length of the string
 * @next: points to the next node
 *
-* Description: ingly linked list node structure
+* Description: singly linked list node structure
 */
+
 typedef struct list_s
 {
-	char *str
+	char *str;
 	unsigned int len;
 	struct list_s *next;
-}; list_t
+} list_t;
 
+/* function prototypes */
 int _putchar(char c);
+size_t print_list(const list_t *h);
+
+
+
 
 #endif /* LISTS_H */
