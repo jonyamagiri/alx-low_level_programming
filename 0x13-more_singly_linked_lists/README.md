@@ -35,7 +35,23 @@ Write a function that inserts a new node at a given position.
 #### Task: 10-delete_nodeint.c
 Write a function that deletes the node at index index of a `listint_t` linked list.
 
+#### Task: 100-reverse_listint.c
+Write a function that reverses a `listint_t` linked list.
+
+#### Task: 101-print_listint_safe.c
+Write a function that prints a `listint_t` linked list.
+
+#### Task: 102-free_listint_safe.c
+Write a function that frees a `listint_t` list.
+
+#### Task: 103-find_loop.c
+Write a function that finds the loop in a linked list.
+
 ___
+
+#### Files:
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x13-more_singly_linked_lists/test-files) - `main.c` files used to locally test the functions
+* [lists.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x13-more_singly_linked_lists/lists.h) - header file containing function prototypes and data structures
 
 #### Data structure used for this project:
 
@@ -54,6 +70,5 @@ typedef struct listint_s
     struct listint_s *next;
 } listint_t;
 ```
-
 
 
