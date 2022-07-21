@@ -23,7 +23,7 @@ Write a function that returns the number of bits you would need to flip to get f
 ___
 
 #### Files:
-* [test-files]()- `main.c` files used to locally test the functions
-* [main.h]()- header file containing function prototypes and data structures
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x14-bit_manipulation/test-files)- `main.c` files used to locally test the functions
+* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x14-bit_manipulation/main.h)- header file containing function prototypes and data structures
 
 
