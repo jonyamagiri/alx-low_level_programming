@@ -1,7 +1,7 @@
 # include "main.h"
 
 /**
-* _islower - prints the n times table, starting with 0
+* print_times_table- prints the n times table, starting with 0
 * @n: number times table (n < 15)
 * Description: Function prints the n times table, starting with 0
 * Return: Nothing (If n is greater than 15 or less than 0)
