@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 	rd = read(file_from, buf, 1024);
 	file_to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
-	while (r > 0)
+	while (rd > 0)
 	{
 		if (file_from == -1 || rd == -1)
 		{
