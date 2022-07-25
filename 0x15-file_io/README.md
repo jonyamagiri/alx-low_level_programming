@@ -17,7 +17,7 @@ Write a program that copies the content of a file to another file.
 ___
 
 #### Files:
-* [test-files]()- files used to locally test the functions
-* [main.h]()- header file containing function prototypes and data structures
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x15-file_io/test-files)- files used to locally test the functions
+* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x15-file_io/main.h)- header file containing function prototypes and data structures
 
 
