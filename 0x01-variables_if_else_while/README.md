@@ -34,4 +34,13 @@ A program that prints all the numbers of base 16 in lowercase, followed by a new
 ##### 9-print_comb.c
 A program that prints all possible combinations of single-digit numbers
 
+##### 100-print_comb3.c
+Write a program that prints all possible different combinations of two digits.
+
+##### 101-print_comb4.c
+Write a program that prints all possible different combinations of three digits.
+
+##### 102-print_comb5.c
+Write a program that prints all possible combinations of two two-digit numbers.
+
 
