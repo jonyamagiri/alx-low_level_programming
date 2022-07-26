@@ -72,16 +72,16 @@ A function that prints a triangle, followed by a new line.
 * Use the character `#` to print the triangle
 
 #### 100-prime_factor.c
-Write a program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line.
+* Write a program that finds and prints the largest prime factor of the number `612852475143`, followed by a new line.
 
 #### 101-print_number.c
-Write a function that prints an integer.
+* Write a function that prints an integer.
 
 ___
 
 #### Files:
-* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/test-files) - compiled programs
-* [main_files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/main_files) - files used to locally test the functions
-* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x02-functions_nested_loops/main.h) - header file containing function prototypes
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/test-files) - compiled programs
+* [main_files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x04-more_functions_nested_loops/main_files) - files used to locally test the functions
+* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x04-more_functions_nested_loops/main.h) - header file containing function prototypes
 
 
