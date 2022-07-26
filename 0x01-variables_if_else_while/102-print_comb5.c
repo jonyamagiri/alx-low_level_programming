@@ -20,7 +20,10 @@ int main(void)
 		{
 			for (c = 48; c <= 57; c++)
 			{
-				for (d = 48; d <= 57; d++)
+				d = 48;
+				while (d <= 57)
+				{
+				if (((c + d) > (a + b) && c >= a) || a < c)
 				{
 					putchar(a);
 					putchar(b);
@@ -36,6 +39,8 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
+				}
+				d++;
 				}
 			}
 		}
