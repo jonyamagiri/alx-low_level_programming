@@ -23,6 +23,6 @@ int main(void)
 		if (fibn % 2 == 0)
 			fib_sum = fib_sum + fibn;
 	}
-	printf("%i\n"), fib_sum;
+	printf("%i\n", fib_sum);
 	return (0);
 }
