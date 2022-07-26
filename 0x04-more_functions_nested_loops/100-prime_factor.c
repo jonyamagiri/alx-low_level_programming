@@ -14,7 +14,7 @@ int main(void)
 
 	n = 612852475143;
 	div = 2;
-	
+
 	while (n != 0)
 	{
 		if (n % div != 0)
