@@ -95,8 +95,8 @@ A program that finds and prints the first 98 Fibonacci numbers, starting with `1
 ___
 
 #### Files:
-* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/test-files)- files used to locally test the functions
-* [main_files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/main_files)
-* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x02-functions_nested_loops/main.h)- header file containing function prototypes
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/test-files) - compiled programs
+* [main_files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x02-functions_nested_loops/main_files) - files used to locally test the functions
+* [main.h](https://github.com/jonyamagiri/alx-low_level_programming/blob/master/0x02-functions_nested_loops/main.h) - header file containing function prototypes
 
 
