@@ -49,5 +49,11 @@ A function that copies the string pointed to by `src`, including the terminating
 * Prototype: `char *_strcpy(char *dest, char *src);`
 * Return value: the pointer to `dest`
 
+#### Task: 100-atoi.c
+* Write a function that convert a string to an integer.
+
+#### Task: 101-keygen.c
+* Create a program that generates random valid passwords for the program 101-crackme.
+
 
 
