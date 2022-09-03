@@ -31,12 +31,25 @@ Write a function that inserts a new node at a given position.
 #### Task: 8-delete_dnodeint.c
 Write a function that deletes the node at index `index` of a `dlistint_t` linked list.
 
+#### Task: 100-password
+Find the password for [crackme4](https://github.com/holbertonschool/0x17.c).
+
+#### Task: 102-result
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is `9009 = 91 × 99`.
+* Find the largest palindrome made from the product of two 3-digit numbers.
+
+#### Task: 4-free_dlistint.c
+Write a keygen for [crackme5](https://github.com/holbertonschool/0x17.c).
+* Usage of the crackme: `./crackme5 username key`
+* The crackme will segfault if you do not enter the correct key for the user
+* Usage for your keygen: `./keygen5 username`
+* Your keygen should print a valid key for the `username`
 
 ___
 
 #### Files:
 
-* []()
+* [test-files](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x17-doubly_linked_lists/test-files)
 
 
 #### Data structure for this project:
