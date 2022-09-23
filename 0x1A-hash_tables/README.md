@@ -99,7 +99,7 @@ typedef struct shash_table_s
 ```
 
 * Resource - [PHP Internals Book: HashTable](https://www.phpinternalsbook.com/php5/hashtables/basic_structure.html)
-* Use the same hash function - [djb2](https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8) algorithm
+* Use the same hash function - [djb2](https://gist.github.com/papamuziko/7bb52dfbb859fdffc4bd0f95b76f71e8) algorithm and these prototypes:
 * `shash_table_t *shash_table_create(unsigned long int size);`
 * `int shash_table_set(shash_table_t *ht, const char *key, const char *value);`
 * `char *shash_table_get(const shash_table_t *ht, const char *key);`
