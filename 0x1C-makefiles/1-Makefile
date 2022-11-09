@@ -1,7 +1,9 @@
 # variables
+
 CC = gcc
 SRC = main.c school.c
 
 # builds executable
+
 all: $(SRC)
 	$(CC) $(SRC) -o school
