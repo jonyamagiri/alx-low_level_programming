@@ -34,8 +34,8 @@ In this project, I learnt:
 
 #### Task: 5-island_perimeter.py
 **Technical interview prep:** 
-Create a function def island_perimeter(grid): that returns the perimeter of the island described in grid:
-* grid is a list of list of integers:
+Create a function `def island_perimeter(grid):` that returns the perimeter of the island described in `grid`:
+* `grid` is a list of list of integers:
 	* 0 represents a water zone
 	* 1 represents a land zone
 	* One cell is a square with side length 1
