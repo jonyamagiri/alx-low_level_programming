@@ -31,7 +31,7 @@
 * [0x1A-hash_tables](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x1A-hash_tables)
 * [sorting_algorithms](https://github.com/jonyamagiri/sorting_algorithms)
 * [0x1C-makefiles](https://github.com/jonyamagiri/alx-low_level_programming/tree/master/0x1C-makefiles)
-* []()
+* [0x1E-search_algorithms]()
 * []()
 * []()
 * []()
